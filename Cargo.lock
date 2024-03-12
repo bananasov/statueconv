@@ -115,6 +115,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b1a46d1a171d865aa5f83f92695765caa047a9b4cbae2cbf37dbd613a793fd4c"
 
 [[package]]
+name = "minecraft-formats"
+version = "0.1.0"
+source = "git+https://github.com/bananasov/minecraft-formats#bcb0cbbb37830ac600661cd1e20adc22c3330225"
+dependencies = [
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.78"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -170,22 +179,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "shared"
-version = "0.1.0"
-dependencies = [
- "serde",
- "serde_json",
-]
-
-[[package]]
 name = "statueconv"
 version = "0.1.0"
 dependencies = [
  "anyhow",
  "clap",
+ "minecraft-formats",
  "serde",
  "serde_json",
- "shared",
 ]
 
 [[package]]

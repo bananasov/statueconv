@@ -6,7 +6,7 @@ use std::{
 
 use anyhow::Context;
 use clap::Parser;
-use shared::formats::{printer::Print, statue::Statue};
+use minecraft_formats::formats::{printer::Print, statue::Statue};
 
 #[derive(Parser)]
 #[command(version, about, long_about = None)]
