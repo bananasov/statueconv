@@ -1,0 +1,17 @@
+{
+	"label": "basic fucking block",
+	"tooltip": "Made with Blockbench",
+	"isButton": false,
+	"collideWhenOn": true,
+	"collideWhenOff": true,
+	"lightLevel": 0,
+	"redstoneLevel": 0,
+	"shapesOff": [
+		{
+			"bounds": [0, 0, 0, 16, 2, 16],
+			"texture": "sc-peripherals:block/white",
+			"tint": "FFFFFF"
+		}
+	],
+	"shapesOn": []
+}
